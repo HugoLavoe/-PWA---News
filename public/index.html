@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>News API Project</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="navegacion.css">
+    <link rel="manifest" href="manifest.json">
+</head>
+<body>
+    <!-- Navigation Bar -->
+    <nav class="navbar">
+        <div class="navbar-content">
+            <h1>Noticias 📰</h1>
+            <ul class="navbar-links">
+                <li><a href="index.html">Hogar</a></li>
+                <li><a href="news.html">Noticias</a></li>
+            </ul>
+        </div>
+    </nav>
+
+    <!-- Home Section -->
+    <section id="home">
+        <h3>Noticias aplicando aplicaciones web progresivas (PWA)</h3>
+        <p>Este es un sitio de noticias simple que muestra enlaces e información resumida de artículos públicos. El sitio utiliza la API (<a href="https://newsapi.org">https://newsapi.org</a>) para buscar diversos artículos.</p>
+        <p class="note">Nota: El proceso del servidor almacena en caché las noticias durante 15 minutos, por lo que la fecha y hora de la última actualización no se actualizarán con cada solicitud.</p>
+       <center><img src="img/newsapi-logo.png" alt="News API logo" class="news-logo"></center> 
+    </section>
+    <script src="../service-workers/sw-reg2.js"></script>
+</body>
+</html>

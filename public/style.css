@@ -1,0 +1,136 @@
+/* Estilo para el título principal */
+h1 {
+    font-family: 'Arial', sans-serif;
+    font-size: 2em;
+    color: #000b87;
+    text-align: center;
+    margin: 20px 0;
+    padding: 0 20px;
+}
+
+/* Estilo para el subtítulo o descripción */
+h2 {
+    font-family: 'Arial', sans-serif;
+    font-size: 1.5em;
+    color: #2049ff;
+    margin-bottom: 15px;
+    text-align: center;
+}
+
+/* Estilo para el subtítulo o descripción */
+h3 {
+    font-family: 'Arial', sans-serif;
+    font-size: 3em;
+    color: #2049ff;
+    margin-bottom: 15px;
+    text-align: center;
+}
+
+/* Estilo para los párrafos */
+p {
+    font-family: 'Verdana', sans-serif;
+    font-size: 1em;
+    color: #000000;
+    line-height: 1.6;
+    margin: 10px 0;
+    text-align: justify;
+}
+
+/* Estilo para los enlaces */
+a {
+    font-family: 'Arial', sans-serif;
+    font-size: 1em;
+    color: #1a73e8; /* Color azul */
+    text-decoration: none;
+}
+
+a:hover {
+    color: #4276f9; /* Cambia a naranja cuando pasas el ratón */
+    text-decoration: underline;
+}
+
+/* Estilo para las notas */
+.note {
+    font-family: 'Verdana', sans-serif;
+    font-size: 0.9em;
+    color: #555555;
+    font-style: italic;
+    margin-top: 15px;
+}
+/* Estilo para el contenedor de filtros */
+#filters {
+    margin: 20px auto;
+    text-align: center;
+}
+
+#filters input, #filters select, #filters button {
+    font-family: 'Arial', sans-serif;
+    font-size: 1em;
+    padding: 10px;
+    margin: 5px;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+    width: 200px;
+    max-width: 90%;
+}
+
+#filters button {
+    background-color: #2049ff;
+    color: white;
+    cursor: pointer;
+}
+
+#filters button:hover {
+    background-color: #1a73e8;
+}
+
+/* Estilo para el contenedor de noticias */
+#newsSection {
+    margin: 20px auto;
+    padding: 10px;
+    max-width: 900px;
+}
+
+#newsContainer {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 20px;
+    justify-content: center;
+}
+
+/* Estilo para cada tarjeta de noticia */
+.news-item {
+    border: 1px solid #ddd;
+    padding: 15px;
+    border-radius: 10px;
+    width: 300px;
+    background-color: #f9f9f9;
+    box-shadow: 0px 2px 5px rgba(0, 0, 0, 0.1);
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+.news-item:hover {
+    transform: translateY(-5px);
+    box-shadow: 0px 5px 15px rgba(0, 0, 0, 0.2);
+}
+
+/* Títulos de las noticias */
+.news-item h2 a {
+    font-size: 1.2em;
+    color: #000b87;
+    text-decoration: none;
+}
+
+.news-item h2 a:hover {
+    color: #2049ff;
+    text-decoration: underline;
+}
+
+/* Descripción de las noticias */
+.news-item p {
+    font-size: 0.9em;
+    color: #555555;
+    text-align: justify;
+    line-height: 1.5;
+}
+
