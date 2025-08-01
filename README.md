@@ -34,3 +34,20 @@
 1. Clonar el repositorio:
    ```bash
    git clone https://github.com/HugoLavoe/pwa-news.git
+
+## Instalar dependencias:
+bash
+npm install
+
+Configurar archivo .env con tu clave de NewsAPI:
+env
+NEWS_API_KEY=tu_api_key_aqui
+
+Iniciar servidor:
+bash
+node server.js
+
+👤 Autor
+Desarrollado por Víctor Hugo Pérez Tépox
+Ingeniero en Desarrollo y Gestion de Software
+📧 vector.hugopt@gmail.com | 🌐 LinkedIn
